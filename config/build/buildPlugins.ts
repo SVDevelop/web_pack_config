@@ -35,7 +35,7 @@ export const buildPlugins = ({mode, paths, analyzer}: BuildOptions): Configurati
                 {
                     from: path.resolve(paths.src, 'assets'),
                     to: path.resolve(paths.output, 'assets')
-                }
+                },
             ]
         }))
     }
